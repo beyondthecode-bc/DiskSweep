@@ -59,8 +59,21 @@ The app includes a built-in update checker -- open **About** and click **Check N
 
 ### Analysis Window
 - **Disk usage chart** -- visual breakdown of caches, duplicates, large files, and free space
-- **4-tab interface** -- Overview, Caches, Duplicates, Large Files
+- **8-tab interface** -- Overview, Caches, Duplicates, Large Files, Treemap, Xcode, Dev Tools
+- **Treemap visualization** -- interactive squarified disk map showing space usage proportionally
+- **File type breakdown** -- stacked bar chart showing distribution by type (images, videos, code, archives, etc.)
 - **Detachable window** -- persists independently from the menu bar popover
+
+### Xcode Deep Clean
+- **Per-project DerivedData** -- see exactly which projects are using space, clean individually
+- **Device Support** -- iOS/watchOS/tvOS versions listed with sizes
+- **Simulators** -- individual simulator devices with delete buttons
+- **Archives** -- old .xcarchive files with dates and sizes
+
+### Developer Tools
+- **Docker cleanup** -- scan Docker data directory and reclaim space
+- **Homebrew cleanup** -- clear caches and logs separately
+- **node_modules finder** -- find node_modules across all project directories with per-project delete
 
 ### General
 - **Menu bar app** -- quick access from the menu bar with disk usage at a glance
@@ -68,6 +81,15 @@ The app includes a built-in update checker -- open **About** and click **Check N
 - **Built-in updates** -- checks GitHub Releases for new versions
 - **8 languages** -- English, French, German, Spanish, Japanese, Korean, Portuguese, Chinese
 - **Zero dependencies** -- pure Swift, no third-party libraries
+- **Quick Look** -- preview any file before deleting (eye button or spacebar)
+- **Drag and drop** -- drag files from the analysis window to Finder
+- **Context menus** -- right-click for Open, Reveal, Quick Look, Copy Path, Delete
+- **Keyboard shortcuts** -- Cmd+R rescan, Cmd+Shift+F full scan, Cmd+, settings
+- **Search and sort** -- filter files by name/path, sort by size/name/date
+- **Scheduled auto-scan** -- daily or weekly background scans with notifications
+- **Scan history** -- tracks total reclaimed space over the lifetime of the app
+- **Recently cleaned** -- see what was last cleaned in the popover
+- **Onboarding** -- first-launch welcome screen with feature overview and FDA setup
 
 ## Requirements
 
