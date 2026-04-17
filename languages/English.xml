@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <!-- App -->
+  <string key="app.name">DiskSweep</string>
+  <string key="app.quit">Quit DiskSweep</string>
+  <string key="app.tagline">Developer-focused disk cleaner for macOS</string>
+
+  <!-- General -->
+  <string key="general.settings">Settings</string>
+  <string key="general.about">About</string>
+  <string key="general.ok">OK</string>
+  <string key="general.cancel">Cancel</string>
+  <string key="general.delete">Delete</string>
+  <string key="general.clean">Clean</string>
+  <string key="general.scan">Scan</string>
+  <string key="general.rescan">Rescan</string>
+  <string key="general.scanning">Scanning...</string>
+
+  <!-- Popover -->
+  <string key="popover.free">%1 free</string>
+  <string key="popover.of">of %1</string>
+  <string key="popover.reclaimable">%1 reclaimable</string>
+  <string key="popover.scanNow">Scan Now</string>
+  <string key="popover.openAnalysis">Open Analysis</string>
+
+  <!-- Categories -->
+  <string key="category.developer">Developer</string>
+  <string key="category.system">System</string>
+  <string key="category.user">User</string>
+  <string key="category.analysis">Analysis</string>
+
+  <!-- Analysis Window -->
+  <string key="analysis.title">DiskSweep Analysis</string>
+  <string key="analysis.overview">Overview</string>
+  <string key="analysis.caches">Caches</string>
+  <string key="analysis.duplicates">Duplicates</string>
+  <string key="analysis.largeFiles">Large Files</string>
+  <string key="analysis.fullScan">Full Scan</string>
+  <string key="analysis.freeSpace">Free Space</string>
+
+  <!-- Duplicates -->
+  <string key="duplicates.title">Duplicate Files</string>
+  <string key="duplicates.groups">%1 groups</string>
+  <string key="duplicates.copies">%1 copies</string>
+  <string key="duplicates.reclaimable">%1 reclaimable</string>
+  <string key="duplicates.smartSelect">Smart Select</string>
+  <string key="duplicates.clearSelection">Clear Selection</string>
+  <string key="duplicates.moveToTrash">Move to Trash</string>
+  <string key="duplicates.filesSelected">%1 files selected</string>
+  <string key="duplicates.noResults">No Duplicates Found</string>
+  <string key="duplicates.noResultsHint">Run a full scan from the Overview tab to detect duplicate files.</string>
+  <string key="duplicates.apfsClone">APFS Clone</string>
+  <string key="duplicates.zeroReclaimable">0 bytes reclaimable</string>
+
+  <!-- Large Files -->
+  <string key="largeFiles.title">Large Files</string>
+  <string key="largeFiles.noResults">No Large Files</string>
+  <string key="largeFiles.noResultsHint">No files above %1. Run a full scan or lower the threshold.</string>
+  <string key="largeFiles.threshold">Threshold</string>
+
+  <!-- Cache Scanner -->
+  <string key="cacheScanner.title">Cache Scanner</string>
+  <string key="cacheScanner.noResults">No Scan Results</string>
+  <string key="cacheScanner.noResultsHint">Run a cache scan to see results.</string>
+
+  <!-- Settings -->
+  <string key="settings.title">DiskSweep Settings</string>
+  <string key="settings.general">General</string>
+  <string key="settings.launchAtLogin">Launch at login</string>
+  <string key="settings.notifications">Show notifications</string>
+  <string key="settings.scanning">Scanning</string>
+  <string key="settings.largeFileThreshold">Large file threshold</string>
+  <string key="settings.oldDownloadsAge">Old downloads age</string>
+  <string key="settings.scanPaths">Scan Paths</string>
+  <string key="settings.addPath">Add Path</string>
+  <string key="settings.exclusions">Exclusions</string>
+  <string key="settings.addExclusion">Add Exclusion</string>
+
+  <!-- About -->
+  <string key="about.title">About DiskSweep</string>
+  <string key="about.version">Version</string>
+  <string key="about.buildName">BUILD NAME</string>
+  <string key="about.platform">PLATFORM</string>
+  <string key="about.source">SOURCE</string>
+  <string key="about.viewOnGitHub">view on GitHub</string>
+  <string key="about.githubDescription">Visit the GitHub repository to file issues, request features, and follow development.</string>
+  <string key="about.support">SUPPORT</string>
+  <string key="about.supportHint">help keep this project alive</string>
+  <string key="about.supportDescription">If you find DiskSweep useful, consider supporting its development.</string>
+
+  <!-- Language -->
+  <string key="language.title">LANGUAGE</string>
+  <string key="language.hint">interface language</string>
+  <string key="language.description">Choose the display language for DiskSweep. The app will restart to apply the change.</string>
+  <string key="language.restartRequired">Restart Required</string>
+  <string key="language.restartMessage">DiskSweep needs to restart to apply the new language.</string>
+  <string key="language.restartNow">Restart Now</string>
+  <string key="language.later">Later</string>
+
+  <!-- Updates -->
+  <string key="update.check">Check for Updates</string>
+  <string key="update.checkNow">Check Now</string>
+  <string key="update.checking">Checking...</string>
+  <string key="update.checkingForUpdates">Checking for updates...</string>
+  <string key="update.available">Update Available</string>
+  <string key="update.upToDate">You're up to date!</string>
+  <string key="update.upToDateFull">You're on the latest version (v%1)</string>
+  <string key="update.download">Download</string>
+  <string key="update.downloadInstall">Download &amp; Install</string>
+  <string key="update.downloading">Downloading update...</string>
+  <string key="update.downloaded">Update downloaded and ready</string>
+  <string key="update.install">Install Now</string>
+  <string key="update.version">Version %1</string>
+  <string key="update.installed">INSTALLED</string>
+  <string key="update.latest">LATEST</string>
+  <string key="update.idle">Click **Check Now** to look for updates.</string>
+
+  <!-- FDA -->
+  <string key="fda.warning">Grant Full Disk Access for complete scanning</string>
+  <string key="fda.grant">Grant</string>
+
+  <!-- Finder -->
+  <string key="finder.reveal">Reveal in Finder</string>
+</strings>

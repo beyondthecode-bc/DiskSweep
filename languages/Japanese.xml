@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <!-- App -->
+  <string key="app.name">DiskSweep</string>
+  <string key="app.quit">DiskSweepを終了</string>
+  <string key="app.tagline">macOS向け開発者用ディスククリーナー</string>
+
+  <!-- General -->
+  <string key="general.settings">設定</string>
+  <string key="general.about">DiskSweepについて</string>
+  <string key="general.ok">OK</string>
+  <string key="general.cancel">キャンセル</string>
+  <string key="general.delete">削除</string>
+  <string key="general.clean">クリーン</string>
+  <string key="general.scan">スキャン</string>
+  <string key="general.rescan">再スキャン</string>
+  <string key="general.scanning">スキャン中...</string>
+
+  <!-- Popover -->
+  <string key="popover.free">%1 空き</string>
+  <string key="popover.of">%1 中</string>
+  <string key="popover.reclaimable">%1 回収可能</string>
+  <string key="popover.scanNow">今すぐスキャン</string>
+  <string key="popover.openAnalysis">分析を開く</string>
+
+  <!-- Categories -->
+  <string key="category.developer">開発者</string>
+  <string key="category.system">システム</string>
+  <string key="category.user">ユーザー</string>
+  <string key="category.analysis">分析</string>
+
+  <!-- Analysis Window -->
+  <string key="analysis.title">DiskSweep 分析</string>
+  <string key="analysis.overview">概要</string>
+  <string key="analysis.caches">キャッシュ</string>
+  <string key="analysis.duplicates">重複ファイル</string>
+  <string key="analysis.largeFiles">大容量ファイル</string>
+  <string key="analysis.fullScan">フルスキャン</string>
+  <string key="analysis.freeSpace">空き容量</string>
+
+  <!-- Duplicates -->
+  <string key="duplicates.title">重複ファイル</string>
+  <string key="duplicates.groups">%1 グループ</string>
+  <string key="duplicates.copies">%1 コピー</string>
+  <string key="duplicates.reclaimable">%1 回収可能</string>
+  <string key="duplicates.smartSelect">スマート選択</string>
+  <string key="duplicates.clearSelection">選択を解除</string>
+  <string key="duplicates.moveToTrash">ゴミ箱に移動</string>
+  <string key="duplicates.filesSelected">%1 ファイルを選択中</string>
+  <string key="duplicates.noResults">重複ファイルなし</string>
+  <string key="duplicates.noResultsHint">概要タブからフルスキャンを実行して、重複ファイルを検出してください。</string>
+  <string key="duplicates.apfsClone">APFSクローン</string>
+  <string key="duplicates.zeroReclaimable">回収可能: 0バイト</string>
+
+  <!-- Large Files -->
+  <string key="largeFiles.title">大容量ファイル</string>
+  <string key="largeFiles.noResults">大容量ファイルなし</string>
+  <string key="largeFiles.noResultsHint">%1 を超えるファイルはありません。フルスキャンを実行するか、しきい値を下げてください。</string>
+  <string key="largeFiles.threshold">しきい値</string>
+
+  <!-- Cache Scanner -->
+  <string key="cacheScanner.title">キャッシュスキャナー</string>
+  <string key="cacheScanner.noResults">スキャン結果なし</string>
+  <string key="cacheScanner.noResultsHint">キャッシュスキャンを実行して結果を表示してください。</string>
+
+  <!-- Settings -->
+  <string key="settings.title">DiskSweep 設定</string>
+  <string key="settings.general">一般</string>
+  <string key="settings.launchAtLogin">ログイン時に起動</string>
+  <string key="settings.notifications">通知を表示</string>
+  <string key="settings.scanning">スキャン</string>
+  <string key="settings.largeFileThreshold">大容量ファイルのしきい値</string>
+  <string key="settings.oldDownloadsAge">古いダウンロードの期間</string>
+  <string key="settings.scanPaths">スキャンパス</string>
+  <string key="settings.addPath">パスを追加</string>
+  <string key="settings.exclusions">除外項目</string>
+  <string key="settings.addExclusion">除外項目を追加</string>
+
+  <!-- About -->
+  <string key="about.title">DiskSweepについて</string>
+  <string key="about.version">バージョン</string>
+  <string key="about.buildName">ビルド名</string>
+  <string key="about.platform">プラットフォーム</string>
+  <string key="about.source">ソース</string>
+  <string key="about.viewOnGitHub">GitHubで表示</string>
+  <string key="about.githubDescription">GitHubリポジトリにアクセスして、問題の報告、機能のリクエスト、開発の追跡ができます。</string>
+  <string key="about.support">サポート</string>
+  <string key="about.supportHint">このプロジェクトの継続を支援</string>
+  <string key="about.supportDescription">DiskSweepが役に立っている場合は、開発の支援をご検討ください。</string>
+
+  <!-- Language -->
+  <string key="language.title">言語</string>
+  <string key="language.hint">表示言語</string>
+  <string key="language.description">DiskSweepの表示言語を選択してください。変更を適用するにはアプリの再起動が必要です。</string>
+  <string key="language.restartRequired">再起動が必要</string>
+  <string key="language.restartMessage">新しい言語を適用するには、DiskSweepを再起動する必要があります。</string>
+  <string key="language.restartNow">今すぐ再起動</string>
+  <string key="language.later">後で</string>
+
+  <!-- Updates -->
+  <string key="update.check">アップデートを確認</string>
+  <string key="update.checkNow">今すぐ確認</string>
+  <string key="update.checking">確認中...</string>
+  <string key="update.checkingForUpdates">アップデートを確認中...</string>
+  <string key="update.available">アップデートあり</string>
+  <string key="update.upToDate">最新の状態です！</string>
+  <string key="update.upToDateFull">最新バージョンです (v%1)</string>
+  <string key="update.download">ダウンロード</string>
+  <string key="update.downloadInstall">ダウンロード &amp; インストール</string>
+  <string key="update.downloading">アップデートをダウンロード中...</string>
+  <string key="update.downloaded">アップデートのダウンロード完了</string>
+  <string key="update.install">今すぐインストール</string>
+  <string key="update.version">バージョン %1</string>
+  <string key="update.installed">インストール済み</string>
+  <string key="update.latest">最新</string>
+  <string key="update.idle">**今すぐ確認**をクリックしてアップデートを確認してください。</string>
+
+  <!-- FDA -->
+  <string key="fda.warning">完全なスキャンのためにフルディスクアクセスを許可してください</string>
+  <string key="fda.grant">許可</string>
+
+  <!-- Finder -->
+  <string key="finder.reveal">Finderで表示</string>
+</strings>

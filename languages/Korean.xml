@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <!-- App -->
+  <string key="app.name">DiskSweep</string>
+  <string key="app.quit">DiskSweep 종료</string>
+  <string key="app.tagline">macOS용 개발자 디스크 클리너</string>
+
+  <!-- General -->
+  <string key="general.settings">설정</string>
+  <string key="general.about">정보</string>
+  <string key="general.ok">확인</string>
+  <string key="general.cancel">취소</string>
+  <string key="general.delete">삭제</string>
+  <string key="general.clean">정리</string>
+  <string key="general.scan">스캔</string>
+  <string key="general.rescan">재스캔</string>
+  <string key="general.scanning">스캔 중...</string>
+
+  <!-- Popover -->
+  <string key="popover.free">%1 여유</string>
+  <string key="popover.of">%1 중</string>
+  <string key="popover.reclaimable">%1 회수 가능</string>
+  <string key="popover.scanNow">지금 스캔</string>
+  <string key="popover.openAnalysis">분석 열기</string>
+
+  <!-- Categories -->
+  <string key="category.developer">개발자</string>
+  <string key="category.system">시스템</string>
+  <string key="category.user">사용자</string>
+  <string key="category.analysis">분석</string>
+
+  <!-- Analysis Window -->
+  <string key="analysis.title">DiskSweep 분석</string>
+  <string key="analysis.overview">개요</string>
+  <string key="analysis.caches">캐시</string>
+  <string key="analysis.duplicates">중복 파일</string>
+  <string key="analysis.largeFiles">대용량 파일</string>
+  <string key="analysis.fullScan">전체 스캔</string>
+  <string key="analysis.freeSpace">여유 공간</string>
+
+  <!-- Duplicates -->
+  <string key="duplicates.title">중복 파일</string>
+  <string key="duplicates.groups">%1개 그룹</string>
+  <string key="duplicates.copies">%1개 사본</string>
+  <string key="duplicates.reclaimable">%1 회수 가능</string>
+  <string key="duplicates.smartSelect">스마트 선택</string>
+  <string key="duplicates.clearSelection">선택 해제</string>
+  <string key="duplicates.moveToTrash">휴지통으로 이동</string>
+  <string key="duplicates.filesSelected">%1개 파일 선택됨</string>
+  <string key="duplicates.noResults">중복 파일 없음</string>
+  <string key="duplicates.noResultsHint">개요 탭에서 전체 스캔을 실행하여 중복 파일을 검색하세요.</string>
+  <string key="duplicates.apfsClone">APFS 클론</string>
+  <string key="duplicates.zeroReclaimable">회수 가능: 0바이트</string>
+
+  <!-- Large Files -->
+  <string key="largeFiles.title">대용량 파일</string>
+  <string key="largeFiles.noResults">대용량 파일 없음</string>
+  <string key="largeFiles.noResultsHint">%1 이상의 파일이 없습니다. 전체 스캔을 실행하거나 임계값을 낮추세요.</string>
+  <string key="largeFiles.threshold">임계값</string>
+
+  <!-- Cache Scanner -->
+  <string key="cacheScanner.title">캐시 스캐너</string>
+  <string key="cacheScanner.noResults">스캔 결과 없음</string>
+  <string key="cacheScanner.noResultsHint">캐시 스캔을 실행하여 결과를 확인하세요.</string>
+
+  <!-- Settings -->
+  <string key="settings.title">DiskSweep 설정</string>
+  <string key="settings.general">일반</string>
+  <string key="settings.launchAtLogin">로그인 시 실행</string>
+  <string key="settings.notifications">알림 표시</string>
+  <string key="settings.scanning">스캔</string>
+  <string key="settings.largeFileThreshold">대용량 파일 임계값</string>
+  <string key="settings.oldDownloadsAge">오래된 다운로드 기간</string>
+  <string key="settings.scanPaths">스캔 경로</string>
+  <string key="settings.addPath">경로 추가</string>
+  <string key="settings.exclusions">제외 항목</string>
+  <string key="settings.addExclusion">제외 항목 추가</string>
+
+  <!-- About -->
+  <string key="about.title">DiskSweep 정보</string>
+  <string key="about.version">버전</string>
+  <string key="about.buildName">빌드 이름</string>
+  <string key="about.platform">플랫폼</string>
+  <string key="about.source">소스</string>
+  <string key="about.viewOnGitHub">GitHub에서 보기</string>
+  <string key="about.githubDescription">GitHub 저장소를 방문하여 문제를 보고하고, 기능을 요청하고, 개발 현황을 확인하세요.</string>
+  <string key="about.support">후원</string>
+  <string key="about.supportHint">이 프로젝트를 지속할 수 있도록 도와주세요</string>
+  <string key="about.supportDescription">DiskSweep이 유용하다면 개발 지원을 고려해 주세요.</string>
+
+  <!-- Language -->
+  <string key="language.title">언어</string>
+  <string key="language.hint">인터페이스 언어</string>
+  <string key="language.description">DiskSweep의 표시 언어를 선택하세요. 변경 사항을 적용하려면 앱이 재시작됩니다.</string>
+  <string key="language.restartRequired">재시작 필요</string>
+  <string key="language.restartMessage">새 언어를 적용하려면 DiskSweep을 재시작해야 합니다.</string>
+  <string key="language.restartNow">지금 재시작</string>
+  <string key="language.later">나중에</string>
+
+  <!-- Updates -->
+  <string key="update.check">업데이트 확인</string>
+  <string key="update.checkNow">지금 확인</string>
+  <string key="update.checking">확인 중...</string>
+  <string key="update.checkingForUpdates">업데이트 확인 중...</string>
+  <string key="update.available">업데이트 사용 가능</string>
+  <string key="update.upToDate">최신 상태입니다!</string>
+  <string key="update.upToDateFull">최신 버전입니다 (v%1)</string>
+  <string key="update.download">다운로드</string>
+  <string key="update.downloadInstall">다운로드 &amp; 설치</string>
+  <string key="update.downloading">업데이트 다운로드 중...</string>
+  <string key="update.downloaded">업데이트 다운로드 완료</string>
+  <string key="update.install">지금 설치</string>
+  <string key="update.version">버전 %1</string>
+  <string key="update.installed">설치됨</string>
+  <string key="update.latest">최신</string>
+  <string key="update.idle">**지금 확인**을 클릭하여 업데이트를 확인하세요.</string>
+
+  <!-- FDA -->
+  <string key="fda.warning">완전한 스캔을 위해 전체 디스크 접근 권한을 허용해 주세요</string>
+  <string key="fda.grant">허용</string>
+
+  <!-- Finder -->
+  <string key="finder.reveal">Finder에서 보기</string>
+</strings>

@@ -1,0 +1,45 @@
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  build-and-release:
+    name: Build and Release
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: brew install xcodegen
+
+      - name: Generate Xcode project
+        run: xcodegen generate
+
+      - name: Build Release
+        run: |
+          xcodebuild -project DiskSweep.xcodeproj \
+            -scheme DiskSweep \
+            -configuration Release \
+            -derivedDataPath build/derived \
+            CODE_SIGN_IDENTITY="-" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Create ZIP
+        run: |
+          cd build/derived/Build/Products/Release
+          ditto -c -k --sequesterRsrc --keepParent \
+            "DiskSweep.app" \
+            "DiskSweep-${GITHUB_REF_NAME}.zip"
+          mv "DiskSweep-${GITHUB_REF_NAME}.zip" "$GITHUB_WORKSPACE/"
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            --title "DiskSweep $GITHUB_REF_NAME" \
+            --generate-notes \
+            "DiskSweep-${GITHUB_REF_NAME}.zip"

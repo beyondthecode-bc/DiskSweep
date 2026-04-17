@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <!-- App -->
+  <string key="app.name">DiskSweep</string>
+  <string key="app.quit">Quitter DiskSweep</string>
+  <string key="app.tagline">Nettoyeur de disque pour développeurs macOS</string>
+
+  <!-- General -->
+  <string key="general.settings">Réglages</string>
+  <string key="general.about">À propos</string>
+  <string key="general.ok">OK</string>
+  <string key="general.cancel">Annuler</string>
+  <string key="general.delete">Supprimer</string>
+  <string key="general.clean">Nettoyer</string>
+  <string key="general.scan">Analyser</string>
+  <string key="general.rescan">Réanalyser</string>
+  <string key="general.scanning">Analyse en cours...</string>
+
+  <!-- Popover -->
+  <string key="popover.free">%1 libre</string>
+  <string key="popover.of">sur %1</string>
+  <string key="popover.reclaimable">%1 récupérable</string>
+  <string key="popover.scanNow">Analyser maintenant</string>
+  <string key="popover.openAnalysis">Ouvrir l'analyse</string>
+
+  <!-- Categories -->
+  <string key="category.developer">Développeur</string>
+  <string key="category.system">Système</string>
+  <string key="category.user">Utilisateur</string>
+  <string key="category.analysis">Analyse</string>
+
+  <!-- Analysis Window -->
+  <string key="analysis.title">Analyse DiskSweep</string>
+  <string key="analysis.overview">Vue d'ensemble</string>
+  <string key="analysis.caches">Caches</string>
+  <string key="analysis.duplicates">Doublons</string>
+  <string key="analysis.largeFiles">Fichiers volumineux</string>
+  <string key="analysis.fullScan">Analyse complète</string>
+  <string key="analysis.freeSpace">Espace libre</string>
+
+  <!-- Duplicates -->
+  <string key="duplicates.title">Fichiers en double</string>
+  <string key="duplicates.groups">%1 groupes</string>
+  <string key="duplicates.copies">%1 copies</string>
+  <string key="duplicates.reclaimable">%1 récupérable</string>
+  <string key="duplicates.smartSelect">Sélection intelligente</string>
+  <string key="duplicates.clearSelection">Effacer la sélection</string>
+  <string key="duplicates.moveToTrash">Placer dans la corbeille</string>
+  <string key="duplicates.filesSelected">%1 fichiers sélectionnés</string>
+  <string key="duplicates.noResults">Aucun doublon trouvé</string>
+  <string key="duplicates.noResultsHint">Lancez une analyse complète depuis l'onglet Vue d'ensemble pour détecter les fichiers en double.</string>
+  <string key="duplicates.apfsClone">Clone APFS</string>
+  <string key="duplicates.zeroReclaimable">0 octet récupérable</string>
+
+  <!-- Large Files -->
+  <string key="largeFiles.title">Fichiers volumineux</string>
+  <string key="largeFiles.noResults">Aucun fichier volumineux</string>
+  <string key="largeFiles.noResultsHint">Aucun fichier dépassant %1. Lancez une analyse complète ou abaissez le seuil.</string>
+  <string key="largeFiles.threshold">Seuil</string>
+
+  <!-- Cache Scanner -->
+  <string key="cacheScanner.title">Analyseur de caches</string>
+  <string key="cacheScanner.noResults">Aucun résultat d'analyse</string>
+  <string key="cacheScanner.noResultsHint">Lancez une analyse de caches pour voir les résultats.</string>
+
+  <!-- Settings -->
+  <string key="settings.title">Réglages DiskSweep</string>
+  <string key="settings.general">Général</string>
+  <string key="settings.launchAtLogin">Lancer au démarrage</string>
+  <string key="settings.notifications">Afficher les notifications</string>
+  <string key="settings.scanning">Analyse</string>
+  <string key="settings.largeFileThreshold">Seuil de fichier volumineux</string>
+  <string key="settings.oldDownloadsAge">Ancienneté des téléchargements</string>
+  <string key="settings.scanPaths">Chemins d'analyse</string>
+  <string key="settings.addPath">Ajouter un chemin</string>
+  <string key="settings.exclusions">Exclusions</string>
+  <string key="settings.addExclusion">Ajouter une exclusion</string>
+
+  <!-- About -->
+  <string key="about.title">À propos de DiskSweep</string>
+  <string key="about.version">Version</string>
+  <string key="about.buildName">NOM DE BUILD</string>
+  <string key="about.platform">PLATEFORME</string>
+  <string key="about.source">SOURCE</string>
+  <string key="about.viewOnGitHub">voir sur GitHub</string>
+  <string key="about.githubDescription">Visitez le dépôt GitHub pour signaler des problèmes, demander des fonctionnalités et suivre le développement.</string>
+  <string key="about.support">SOUTIEN</string>
+  <string key="about.supportHint">aidez ce projet à perdurer</string>
+  <string key="about.supportDescription">Si DiskSweep vous est utile, envisagez de soutenir son développement.</string>
+
+  <!-- Language -->
+  <string key="language.title">LANGUE</string>
+  <string key="language.hint">langue de l'interface</string>
+  <string key="language.description">Choisissez la langue d'affichage de DiskSweep. L'application redémarrera pour appliquer le changement.</string>
+  <string key="language.restartRequired">Redémarrage requis</string>
+  <string key="language.restartMessage">DiskSweep doit redémarrer pour appliquer la nouvelle langue.</string>
+  <string key="language.restartNow">Redémarrer maintenant</string>
+  <string key="language.later">Plus tard</string>
+
+  <!-- Updates -->
+  <string key="update.check">Rechercher des mises à jour</string>
+  <string key="update.checkNow">Vérifier maintenant</string>
+  <string key="update.checking">Vérification...</string>
+  <string key="update.checkingForUpdates">Recherche de mises à jour...</string>
+  <string key="update.available">Mise à jour disponible</string>
+  <string key="update.upToDate">Vous êtes à jour !</string>
+  <string key="update.upToDateFull">Vous utilisez la dernière version (v%1)</string>
+  <string key="update.download">Télécharger</string>
+  <string key="update.downloadInstall">Télécharger &amp; Installer</string>
+  <string key="update.downloading">Téléchargement de la mise à jour...</string>
+  <string key="update.downloaded">Mise à jour téléchargée et prête</string>
+  <string key="update.install">Installer maintenant</string>
+  <string key="update.version">Version %1</string>
+  <string key="update.installed">INSTALLÉE</string>
+  <string key="update.latest">DERNIÈRE</string>
+  <string key="update.idle">Cliquez sur **Vérifier maintenant** pour rechercher des mises à jour.</string>
+
+  <!-- FDA -->
+  <string key="fda.warning">Accordez l'accès complet au disque pour une analyse exhaustive</string>
+  <string key="fda.grant">Accorder</string>
+
+  <!-- Finder -->
+  <string key="finder.reveal">Afficher dans le Finder</string>
+</strings>

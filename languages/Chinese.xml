@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <!-- App -->
+  <string key="app.name">DiskSweep</string>
+  <string key="app.quit">退出 DiskSweep</string>
+  <string key="app.tagline">面向开发者的 macOS 磁盘清理工具</string>
+
+  <!-- General -->
+  <string key="general.settings">设置</string>
+  <string key="general.about">关于</string>
+  <string key="general.ok">好</string>
+  <string key="general.cancel">取消</string>
+  <string key="general.delete">删除</string>
+  <string key="general.clean">清理</string>
+  <string key="general.scan">扫描</string>
+  <string key="general.rescan">重新扫描</string>
+  <string key="general.scanning">扫描中...</string>
+
+  <!-- Popover -->
+  <string key="popover.free">%1 可用</string>
+  <string key="popover.of">共 %1</string>
+  <string key="popover.reclaimable">%1 可回收</string>
+  <string key="popover.scanNow">立即扫描</string>
+  <string key="popover.openAnalysis">打开分析</string>
+
+  <!-- Categories -->
+  <string key="category.developer">开发者</string>
+  <string key="category.system">系统</string>
+  <string key="category.user">用户</string>
+  <string key="category.analysis">分析</string>
+
+  <!-- Analysis Window -->
+  <string key="analysis.title">DiskSweep 分析</string>
+  <string key="analysis.overview">概览</string>
+  <string key="analysis.caches">缓存</string>
+  <string key="analysis.duplicates">重复文件</string>
+  <string key="analysis.largeFiles">大文件</string>
+  <string key="analysis.fullScan">完整扫描</string>
+  <string key="analysis.freeSpace">可用空间</string>
+
+  <!-- Duplicates -->
+  <string key="duplicates.title">重复文件</string>
+  <string key="duplicates.groups">%1 组</string>
+  <string key="duplicates.copies">%1 份副本</string>
+  <string key="duplicates.reclaimable">%1 可回收</string>
+  <string key="duplicates.smartSelect">智能选择</string>
+  <string key="duplicates.clearSelection">清除选择</string>
+  <string key="duplicates.moveToTrash">移到废纸篓</string>
+  <string key="duplicates.filesSelected">已选择 %1 个文件</string>
+  <string key="duplicates.noResults">未发现重复文件</string>
+  <string key="duplicates.noResultsHint">请在概览标签页中运行完整扫描以检测重复文件。</string>
+  <string key="duplicates.apfsClone">APFS 克隆</string>
+  <string key="duplicates.zeroReclaimable">可回收: 0 字节</string>
+
+  <!-- Large Files -->
+  <string key="largeFiles.title">大文件</string>
+  <string key="largeFiles.noResults">没有大文件</string>
+  <string key="largeFiles.noResultsHint">没有超过 %1 的文件。请运行完整扫描或降低阈值。</string>
+  <string key="largeFiles.threshold">阈值</string>
+
+  <!-- Cache Scanner -->
+  <string key="cacheScanner.title">缓存扫描器</string>
+  <string key="cacheScanner.noResults">无扫描结果</string>
+  <string key="cacheScanner.noResultsHint">运行缓存扫描以查看结果。</string>
+
+  <!-- Settings -->
+  <string key="settings.title">DiskSweep 设置</string>
+  <string key="settings.general">通用</string>
+  <string key="settings.launchAtLogin">登录时启动</string>
+  <string key="settings.notifications">显示通知</string>
+  <string key="settings.scanning">扫描</string>
+  <string key="settings.largeFileThreshold">大文件阈值</string>
+  <string key="settings.oldDownloadsAge">旧下载文件期限</string>
+  <string key="settings.scanPaths">扫描路径</string>
+  <string key="settings.addPath">添加路径</string>
+  <string key="settings.exclusions">排除项</string>
+  <string key="settings.addExclusion">添加排除项</string>
+
+  <!-- About -->
+  <string key="about.title">关于 DiskSweep</string>
+  <string key="about.version">版本</string>
+  <string key="about.buildName">构建名称</string>
+  <string key="about.platform">平台</string>
+  <string key="about.source">源代码</string>
+  <string key="about.viewOnGitHub">在 GitHub 上查看</string>
+  <string key="about.githubDescription">访问 GitHub 仓库以提交问题、请求功能和关注开发进展。</string>
+  <string key="about.support">支持</string>
+  <string key="about.supportHint">帮助维持此项目</string>
+  <string key="about.supportDescription">如果您觉得 DiskSweep 有用，请考虑支持其开发。</string>
+
+  <!-- Language -->
+  <string key="language.title">语言</string>
+  <string key="language.hint">界面语言</string>
+  <string key="language.description">选择 DiskSweep 的显示语言。应用将重新启动以应用更改。</string>
+  <string key="language.restartRequired">需要重新启动</string>
+  <string key="language.restartMessage">DiskSweep 需要重新启动以应用新语言。</string>
+  <string key="language.restartNow">立即重启</string>
+  <string key="language.later">稍后</string>
+
+  <!-- Updates -->
+  <string key="update.check">检查更新</string>
+  <string key="update.checkNow">立即检查</string>
+  <string key="update.checking">检查中...</string>
+  <string key="update.checkingForUpdates">正在检查更新...</string>
+  <string key="update.available">有可用更新</string>
+  <string key="update.upToDate">已是最新版本！</string>
+  <string key="update.upToDateFull">您正在使用最新版本 (v%1)</string>
+  <string key="update.download">下载</string>
+  <string key="update.downloadInstall">下载 &amp; 安装</string>
+  <string key="update.downloading">正在下载更新...</string>
+  <string key="update.downloaded">更新已下载并就绪</string>
+  <string key="update.install">立即安装</string>
+  <string key="update.version">版本 %1</string>
+  <string key="update.installed">已安装</string>
+  <string key="update.latest">最新</string>
+  <string key="update.idle">点击**立即检查**以查找更新。</string>
+
+  <!-- FDA -->
+  <string key="fda.warning">请授予完全磁盘访问权限以进行完整扫描</string>
+  <string key="fda.grant">授权</string>
+
+  <!-- Finder -->
+  <string key="finder.reveal">在 Finder 中显示</string>
+</strings>
