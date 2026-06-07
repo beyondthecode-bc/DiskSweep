@@ -22,6 +22,7 @@
   <string key="popover.reclaimable">%1 可回收</string>
   <string key="popover.scanNow">立即扫描</string>
   <string key="popover.openAnalysis">打开分析</string>
+  <string key="popover.uninstallApp">卸载应用…</string>
 
   <!-- Categories -->
   <string key="category.developer">开发者</string>
@@ -81,7 +82,7 @@
   <string key="about.version">版本</string>
   <string key="about.buildName">构建名称</string>
   <string key="about.platform">平台</string>
-  <string key="about.source">源代码</string>
+  <string key="about.source">社区</string>
   <string key="about.viewOnGitHub">在 GitHub 上查看</string>
   <string key="about.githubDescription">访问 GitHub 仓库以提交问题、请求功能和关注开发进展。</string>
   <string key="about.support">支持</string>
@@ -121,4 +122,39 @@
 
   <!-- Finder -->
   <string key="finder.reveal">在 Finder 中显示</string>
+
+  <!-- Uninstaller -->
+  <string key="uninstaller.title">卸载器</string>
+  <string key="uninstaller.loading">正在查找应用…</string>
+  <string key="uninstaller.noApps">未找到应用</string>
+  <string key="uninstaller.noAppsHint">/Applications 和 ~/Applications 中的应用会显示在此处。</string>
+  <string key="uninstaller.search">搜索应用</string>
+  <string key="uninstaller.appStoreBadge">App Store</string>
+  <string key="uninstaller.selectApp">选择要卸载的应用</string>
+  <string key="uninstaller.refresh">刷新</string>
+  <string key="uninstaller.moveToTrash">移到废纸篓</string>
+  <string key="uninstaller.selectedTotal">已选择 %1</string>
+  <string key="uninstaller.possibleLeftovers">可能的残留文件</string>
+  <string key="uninstaller.possibleLeftoversHint">低置信度匹配。选择前请逐项确认。</string>
+  <string key="uninstaller.requiresAdmin">需要管理员权限删除</string>
+  <string key="uninstaller.revealInFinder">在访达中显示</string>
+  <string key="uninstaller.userDataWarning">可能包含您的数据</string>
+  <string key="uninstaller.confirmTitle">将这些项目移到废纸篓？</string>
+  <string key="uninstaller.confirmKept">保留（未选择）</string>
+  <string key="uninstaller.confirmQuitRunning">%1 正在运行，将先退出。</string>
+  <string key="uninstaller.moveAnyway">仍然移动</string>
+  <string key="uninstaller.resultReclaimed">已将 %1 移到废纸篓</string>
+  <string key="uninstaller.resultSkipped">已跳过 %1 个项目</string>
+  <string key="uninstaller.category.appBundle">应用程序</string>
+  <string key="uninstaller.category.caches">缓存</string>
+  <string key="uninstaller.category.logs">日志</string>
+  <string key="uninstaller.category.savedState">已存储状态</string>
+  <string key="uninstaller.category.httpStorages">网页存储</string>
+  <string key="uninstaller.category.webKit">WebKit 数据</string>
+  <string key="uninstaller.category.preferences">偏好设置</string>
+  <string key="uninstaller.category.applicationSupport">Application Support</string>
+  <string key="uninstaller.category.containers">容器</string>
+  <string key="uninstaller.category.groupContainers">群组容器</string>
+  <string key="uninstaller.category.launchAgentUser">启动代理</string>
+  <string key="uninstaller.category.launchItemSystem">系统启动项</string>
 </strings>
