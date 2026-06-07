@@ -60,7 +60,16 @@ The app includes a built-in update checker — open **About** and click **Check 
 - **Old downloads detection** — surfaces forgotten files in Downloads older than your chosen age (7–90 days)
 - **Batch cleanup** — select multiple files and move to Trash in one action
 
-### Analysis Window (8 tabs)
+### App Uninstaller
+- **One-click app removal** — select an installed app and move it, plus its leftover files, to the Trash in a single audited operation
+- **Finds the leftovers** — caches, logs, saved state, preferences, containers, group containers, and launch agents tied to the app
+- **Safety first** — files that may hold your data (Application Support, Containers, Group Containers) are listed but unchecked by default; you opt in
+- **Entitlement-aware** — group containers are resolved from the app's code-signing entitlements, never guessed by name
+- **Protected items** — system launch daemons needing admin rights are shown read-only with Reveal in Finder; Apple system apps are never listed
+- **Running-app handling** — quits the app before removing its bundle
+- **Direct access** — an "Uninstall an App…" button right in the menu bar popover
+
+### Analysis Window (9 tabs)
 - **Overview** — disk usage donut chart, file type breakdown, summary cards, and export button
 - **Caches** — all cache categories with individual clean buttons
 - **Duplicates** — grouped duplicate files with search, sort, and batch delete
@@ -68,6 +77,7 @@ The app includes a built-in update checker — open **About** and click **Check 
 - **Space Explorer** — ranked directory list with proportional size bars and click-to-reveal in Finder
 - **Xcode** — per-project DerivedData, simulators, device support, archives with individual cleanup
 - **Dev Tools** — Docker, Homebrew, and node_modules cleanup
+- **Uninstaller** — remove an installed app with its leftover files, with safe defaults and a confirmation step
 
 ### Export Reports
 - **PDF** — professional report with app logo, disk usage bar, color-coded cache bars, large files, and duplicates summary
