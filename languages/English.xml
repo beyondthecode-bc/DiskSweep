@@ -22,6 +22,7 @@
   <string key="popover.reclaimable">%1 reclaimable</string>
   <string key="popover.scanNow">Scan Now</string>
   <string key="popover.openAnalysis">Open Analysis</string>
+  <string key="popover.uninstallApp">Uninstall an App…</string>
 
   <!-- Categories -->
   <string key="category.developer">Developer</string>
@@ -81,7 +82,7 @@
   <string key="about.version">Version</string>
   <string key="about.buildName">BUILD NAME</string>
   <string key="about.platform">PLATFORM</string>
-  <string key="about.source">SOURCE</string>
+  <string key="about.source">COMMUNITY</string>
   <string key="about.viewOnGitHub">view on GitHub</string>
   <string key="about.githubDescription">Visit the GitHub repository to file issues, request features, and follow development.</string>
   <string key="about.support">SUPPORT</string>
@@ -121,4 +122,39 @@
 
   <!-- Finder -->
   <string key="finder.reveal">Reveal in Finder</string>
+
+  <!-- Uninstaller -->
+  <string key="uninstaller.title">Uninstaller</string>
+  <string key="uninstaller.loading">Finding apps…</string>
+  <string key="uninstaller.noApps">No apps found</string>
+  <string key="uninstaller.noAppsHint">Apps in /Applications and ~/Applications appear here.</string>
+  <string key="uninstaller.search">Search apps</string>
+  <string key="uninstaller.appStoreBadge">App Store</string>
+  <string key="uninstaller.selectApp">Select an app to uninstall</string>
+  <string key="uninstaller.refresh">Refresh</string>
+  <string key="uninstaller.moveToTrash">Move to Trash</string>
+  <string key="uninstaller.selectedTotal">%1 selected</string>
+  <string key="uninstaller.possibleLeftovers">Possible leftovers</string>
+  <string key="uninstaller.possibleLeftoversHint">Lower-confidence matches. Review each before selecting.</string>
+  <string key="uninstaller.requiresAdmin">Requires administrator removal</string>
+  <string key="uninstaller.revealInFinder">Reveal in Finder</string>
+  <string key="uninstaller.userDataWarning">May contain your data</string>
+  <string key="uninstaller.confirmTitle">Move these items to Trash?</string>
+  <string key="uninstaller.confirmKept">Kept (not selected)</string>
+  <string key="uninstaller.confirmQuitRunning">%1 is running and will be quit first.</string>
+  <string key="uninstaller.moveAnyway">Move Anyway</string>
+  <string key="uninstaller.resultReclaimed">%1 moved to Trash</string>
+  <string key="uninstaller.resultSkipped">%1 items skipped</string>
+  <string key="uninstaller.category.appBundle">Application</string>
+  <string key="uninstaller.category.caches">Caches</string>
+  <string key="uninstaller.category.logs">Logs</string>
+  <string key="uninstaller.category.savedState">Saved State</string>
+  <string key="uninstaller.category.httpStorages">Web Storage</string>
+  <string key="uninstaller.category.webKit">WebKit Data</string>
+  <string key="uninstaller.category.preferences">Preferences</string>
+  <string key="uninstaller.category.applicationSupport">Application Support</string>
+  <string key="uninstaller.category.containers">Container</string>
+  <string key="uninstaller.category.groupContainers">Group Container</string>
+  <string key="uninstaller.category.launchAgentUser">Launch Agent</string>
+  <string key="uninstaller.category.launchItemSystem">System Launch Item</string>
 </strings>
