@@ -22,6 +22,7 @@
   <string key="popover.reclaimable">%1 회수 가능</string>
   <string key="popover.scanNow">지금 스캔</string>
   <string key="popover.openAnalysis">분석 열기</string>
+  <string key="popover.uninstallApp">앱 제거…</string>
 
   <!-- Categories -->
   <string key="category.developer">개발자</string>
@@ -81,7 +82,7 @@
   <string key="about.version">버전</string>
   <string key="about.buildName">빌드 이름</string>
   <string key="about.platform">플랫폼</string>
-  <string key="about.source">소스</string>
+  <string key="about.source">커뮤니티</string>
   <string key="about.viewOnGitHub">GitHub에서 보기</string>
   <string key="about.githubDescription">GitHub 저장소를 방문하여 문제를 보고하고, 기능을 요청하고, 개발 현황을 확인하세요.</string>
   <string key="about.support">후원</string>
@@ -121,4 +122,39 @@
 
   <!-- Finder -->
   <string key="finder.reveal">Finder에서 보기</string>
+
+  <!-- Uninstaller -->
+  <string key="uninstaller.title">제거 프로그램</string>
+  <string key="uninstaller.loading">앱 검색 중…</string>
+  <string key="uninstaller.noApps">앱을 찾을 수 없음</string>
+  <string key="uninstaller.noAppsHint">/Applications 및 ~/Applications의 앱이 여기에 표시됩니다.</string>
+  <string key="uninstaller.search">앱 검색</string>
+  <string key="uninstaller.appStoreBadge">App Store</string>
+  <string key="uninstaller.selectApp">제거할 앱 선택</string>
+  <string key="uninstaller.refresh">새로 고침</string>
+  <string key="uninstaller.moveToTrash">휴지통으로 이동</string>
+  <string key="uninstaller.selectedTotal">%1 선택됨</string>
+  <string key="uninstaller.possibleLeftovers">잔여 파일 후보</string>
+  <string key="uninstaller.possibleLeftoversHint">신뢰도가 낮은 일치 항목입니다. 선택 전에 확인하세요.</string>
+  <string key="uninstaller.requiresAdmin">관리자 권한으로 삭제해야 함</string>
+  <string key="uninstaller.revealInFinder">Finder에서 보기</string>
+  <string key="uninstaller.userDataWarning">데이터가 포함될 수 있음</string>
+  <string key="uninstaller.confirmTitle">이 항목을 휴지통으로 옮길까요?</string>
+  <string key="uninstaller.confirmKept">유지됨(선택 안 됨)</string>
+  <string key="uninstaller.confirmQuitRunning">%1이(가) 실행 중이며 먼저 종료됩니다.</string>
+  <string key="uninstaller.moveAnyway">그래도 이동</string>
+  <string key="uninstaller.resultReclaimed">%1을(를) 휴지통으로 이동함</string>
+  <string key="uninstaller.resultSkipped">%1개 항목 건너뜀</string>
+  <string key="uninstaller.category.appBundle">응용 프로그램</string>
+  <string key="uninstaller.category.caches">캐시</string>
+  <string key="uninstaller.category.logs">로그</string>
+  <string key="uninstaller.category.savedState">저장된 상태</string>
+  <string key="uninstaller.category.httpStorages">웹 저장소</string>
+  <string key="uninstaller.category.webKit">WebKit 데이터</string>
+  <string key="uninstaller.category.preferences">환경설정</string>
+  <string key="uninstaller.category.applicationSupport">Application Support</string>
+  <string key="uninstaller.category.containers">컨테이너</string>
+  <string key="uninstaller.category.groupContainers">그룹 컨테이너</string>
+  <string key="uninstaller.category.launchAgentUser">실행 에이전트</string>
+  <string key="uninstaller.category.launchItemSystem">시스템 실행 항목</string>
 </strings>
