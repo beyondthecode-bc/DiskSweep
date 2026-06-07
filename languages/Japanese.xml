@@ -22,6 +22,7 @@
   <string key="popover.reclaimable">%1 回収可能</string>
   <string key="popover.scanNow">今すぐスキャン</string>
   <string key="popover.openAnalysis">分析を開く</string>
+  <string key="popover.uninstallApp">アプリをアンインストール…</string>
 
   <!-- Categories -->
   <string key="category.developer">開発者</string>
@@ -81,7 +82,7 @@
   <string key="about.version">バージョン</string>
   <string key="about.buildName">ビルド名</string>
   <string key="about.platform">プラットフォーム</string>
-  <string key="about.source">ソース</string>
+  <string key="about.source">コミュニティ</string>
   <string key="about.viewOnGitHub">GitHubで表示</string>
   <string key="about.githubDescription">GitHubリポジトリにアクセスして、問題の報告、機能のリクエスト、開発の追跡ができます。</string>
   <string key="about.support">サポート</string>
@@ -121,4 +122,39 @@
 
   <!-- Finder -->
   <string key="finder.reveal">Finderで表示</string>
+
+  <!-- Uninstaller -->
+  <string key="uninstaller.title">アンインストーラ</string>
+  <string key="uninstaller.loading">アプリを検索中…</string>
+  <string key="uninstaller.noApps">アプリが見つかりません</string>
+  <string key="uninstaller.noAppsHint">/Applications と ~/Applications のアプリがここに表示されます。</string>
+  <string key="uninstaller.search">アプリを検索</string>
+  <string key="uninstaller.appStoreBadge">App Store</string>
+  <string key="uninstaller.selectApp">アンインストールするアプリを選択</string>
+  <string key="uninstaller.refresh">再読み込み</string>
+  <string key="uninstaller.moveToTrash">ゴミ箱に入れる</string>
+  <string key="uninstaller.selectedTotal">%1 を選択中</string>
+  <string key="uninstaller.possibleLeftovers">関連ファイルの候補</string>
+  <string key="uninstaller.possibleLeftoversHint">確度の低い一致です。選択前に確認してください。</string>
+  <string key="uninstaller.requiresAdmin">管理者による削除が必要です</string>
+  <string key="uninstaller.revealInFinder">Finderで表示</string>
+  <string key="uninstaller.userDataWarning">データが含まれる可能性があります</string>
+  <string key="uninstaller.confirmTitle">これらの項目をゴミ箱に入れますか？</string>
+  <string key="uninstaller.confirmKept">残す（未選択）</string>
+  <string key="uninstaller.confirmQuitRunning">%1 は実行中のため、先に終了します。</string>
+  <string key="uninstaller.moveAnyway">そのまま移動</string>
+  <string key="uninstaller.resultReclaimed">%1 をゴミ箱に移動しました</string>
+  <string key="uninstaller.resultSkipped">%1 項目をスキップしました</string>
+  <string key="uninstaller.category.appBundle">アプリケーション</string>
+  <string key="uninstaller.category.caches">キャッシュ</string>
+  <string key="uninstaller.category.logs">ログ</string>
+  <string key="uninstaller.category.savedState">保存された状態</string>
+  <string key="uninstaller.category.httpStorages">Webストレージ</string>
+  <string key="uninstaller.category.webKit">WebKitデータ</string>
+  <string key="uninstaller.category.preferences">環境設定</string>
+  <string key="uninstaller.category.applicationSupport">Application Support</string>
+  <string key="uninstaller.category.containers">コンテナ</string>
+  <string key="uninstaller.category.groupContainers">グループコンテナ</string>
+  <string key="uninstaller.category.launchAgentUser">起動エージェント</string>
+  <string key="uninstaller.category.launchItemSystem">システム起動項目</string>
 </strings>
