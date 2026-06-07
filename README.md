@@ -33,6 +33,10 @@
 
 ---
 
+> [!NOTE]
+> **This repository is the DiskSweep community hub** — translations, issue tracking, and releases. DiskSweep is a free, closed-source macOS app; the source code is not published here. **[Download DiskSweep from Releases](https://github.com/beyondthecode-bc/DiskSweep/releases/latest).**
+
+
 ## Download
 
 Download the latest version from [**Releases**](https://github.com/beyondthecode-bc/DiskSweep/releases/latest). Unzip, move `DiskSweep.app` to Applications, and launch.
