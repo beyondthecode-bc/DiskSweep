@@ -73,7 +73,7 @@ The app includes a built-in update checker — open **About** and click **Check 
 - **Running-app handling** — quits the app before removing its bundle
 - **Direct access** — an "Uninstall an App…" button right in the menu bar popover
 
-### Analysis Window (9 tabs)
+### Analysis Window (8 tabs)
 - **Overview** — disk usage donut chart, file type breakdown, summary cards, and export button
 - **Caches** — all cache categories with individual clean buttons
 - **Duplicates** — grouped duplicate files with search, sort, and batch delete
@@ -90,6 +90,7 @@ The app includes a built-in update checker — open **About** and click **Check 
 
 ### General
 - **Menu bar app** — quick access with disk usage bar, percentage, and smart recommendations
+- **Reliable direct launch** — opening from Spotlight, Applications, or Finder reveals the full Analysis window; automatic launch at login stays quiet
 - **Built-in update checker** — checks GitHub Releases with one-click install (handles App Translocation)
 - **8 languages** — English, French, German, Spanish, Japanese, Korean, Portuguese, Chinese
 - **Zero dependencies** — pure Swift, no third-party libraries
@@ -129,7 +130,7 @@ The app works without this permission but will skip protected directories.
 
 ### 3. Scan and clean
 
-Click the disk icon in the menu bar, then **Scan Now** to find reclaimable space. Use **Open Analysis** for the full tabbed interface with duplicate detection, large file finder, and space explorer.
+Click the disk icon in the menu bar, then **Scan Now** to find reclaimable space. Use **Open Analysis** for the full tabbed interface with duplicate detection, large file finder, and space explorer. You can also open DiskSweep from Spotlight, Applications, or Finder to reveal Analysis directly.
 
 ## Translations
 
